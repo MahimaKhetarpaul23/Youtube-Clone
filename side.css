@@ -1,0 +1,385 @@
+body{
+    margin:0px;
+    margin-right:0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:lighter;
+}
+
+.outer-body{
+    margin:0px;
+    margin-right:0px;
+    font-family:'roboto',sans-serif;
+    font-weight:lighter;
+}
+
+.nav{
+    left:0%;
+    cursor:pointer;
+    background-color: white;
+    position: fixed;
+    top:0;
+    /* overflow: hidden; */
+    width:100%;
+}
+
+#nav-top-ul{
+    list-style: none;
+    z-index:1;
+}
+
+#nav-top-ul li{
+    display: inline-block;
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+#nav-top-ul .list-icon{
+    font-size: 1.2rem;
+    font-weight: 0;
+    color: gray;
+}
+
+#nav-top-ul .youtube-icon{
+    color:red;
+    font-size: 1.7rem;
+    margin-right:-4px;
+}
+
+
+#nav-top-ul .youtube-heading-letter{
+    color: black;
+    font-family:'Roboto',sans-serif;
+    font-size: 25px;
+    letter-spacing: -3px;
+    left:-8px;
+    right:-8px;
+}
+
+#nav-top-ul .search-box{
+    display: flex;
+    flex-direction: row;
+    margin-left:15rem;
+}
+
+#nav-top-ul .search{
+    display: flex;
+    height: 2.2rem;
+    width:34rem;
+    border: 1px solid lightgrey;
+    align-items: center;
+    padding-left:0.2rem;
+    justify-content: flex-start;
+    font-size: 1.1rem;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#nav-top-ul .search-icon{
+    display: flex;
+    height: 2.2rem;
+    width: 3rem;
+    background-color: lightgray;
+    border: 1px solid lightgrey;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-top-ul .speak{
+    font-size:1.1rem;
+    margin-right:14rem;
+}
+
+#nav-top-ul .create{
+    font-size:1.4rem;
+    margin-top:1.8px;
+}
+
+#nav-top-ul .notify{
+    font-size:1.4rem;
+}
+
+#nav-top-ul .account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height:2rem;
+    width:2rem;
+    background-color: purple;
+    border-radius: 50%;
+    color:white;
+}
+
+
+.main-section{
+    position:relative;
+    top:-15%;
+}
+
+#nav-top{
+    width:83vw;
+    display: inline-block;
+    position: fixed;
+    top:0px;
+}
+
+/* Aside section!!! */
+
+#aside-left-aligned{
+    /* overflow:auto; */
+    box-sizing: border-box;
+    margin-top: 5%;
+    height:auto;
+    width:15vw;
+    transition: top 0.3s;
+    display: inline-block;
+}
+
+#aside-left-aligned ul{
+    position: fixed;
+    top:0px;
+    left:-1.5%;
+}
+
+#aside-left-aligned ul{
+    text-decoration: none;
+}
+
+#aside-left-aligned ul li{
+    display: inline-block;
+}
+
+#nav-top-ul .youtube-icon{
+    color:red;
+    font-size: 1.7rem;
+    margin-right:-4px;
+}
+
+#anav-top-ul .youtube-heading{
+    color: black;
+    font-family:'roboto',sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: -3px;
+}
+
+#nav-top-ul .youtube-heading-country{
+    font-family:'roboto',sans-serif;
+    font-size: 0.7rem;
+    color: grey;
+    vertical-align: super; /* superscript */
+}
+
+.search-icon a{
+    text-decoration: none;
+    color:black;
+}
+
+/* Section ::  */
+#section{
+    display: flex;
+    height:50vh;
+    width:94vw;
+    margin-left:3rem;
+}
+
+#section #main-video .parent-div{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-left:0.6rem;
+    margin-right:0.6rem;
+    margin-bottom:1rem;
+    margin-top: 0.2rem;
+    font-family: 'Roboto', sans-serif;
+}   
+
+#section #main-video .parent-div .text-about-video{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    height:50px;
+    word-wrap: normal;
+    padding-right:30px;
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+}
+
+#section #main-video .parent-div .text-about-video .account{
+    display: inline-block;
+    box-sizing: border-box;
+    height:2.5rem;
+    width:2.5rem;
+    border-radius: 50%;
+    color:#f0f5f5;
+    text-align: center;
+    justify-content: center;
+    padding:0.5rem;
+    background-color:pink;
+}
+
+#section #main-video .parent-div .text-about-video .about{
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left:1rem;
+}
+
+#section #main-video .parent-div .views{
+    font-size:1rem;
+    color:grey;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin-top: -2rem;
+}
+
+#section #main-video .parent-div .views li{
+    display: inline-block;
+    margin-right: 13.5rem;
+}
+
+#section #main-video .parent-div .views .black-icon{
+    color:black;
+    font-size: 1rem;
+    margin-left:1rem;
+    margin-right: 1rem;
+}
+
+#section #main-video .parent-div .views .black-icon i{
+    font-size: 1.2rem;
+}
+
+#section #main-video .line{
+    height:0.05rem;
+    width:900px;
+    margin-left:0.6rem;
+    background-color: lightgray;
+}
+
+#section #main-video .channel-name{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    margin-left: 1.2rem;
+}
+
+#section #main-video .channel-name .account{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    background-color: black;
+    color:#f0f5f5;box-sizing: border-box;
+    padding:8px 15px;
+    margin-right: 1.2rem;
+}
+
+#section #main-video .channel-name .name-ch{
+    display: flex;
+    flex-direction: column;
+}
+
+#section #main-video .channel-name .subscribers{
+    color:grey;
+    font-size:0.8rem;
+}
+
+#section #main-video .channel-name .subscribe{
+    background-color: red;
+    color:white;
+    height:1rem;
+    width:5rem;
+    padding:9px 8px;
+    border-radius: 15.5px;
+    margin-left: 40rem;
+}
+
+#section #main-video .comments{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    margin-left:2rem;
+}
+
+#section #main-video .comments .display-comments{
+    display: flex;
+    flex-direction: column;
+    margin-left: -1%;
+}
+
+#section #main-video .comments .display-comments .parent{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#section #main-video .comments .display-comments .parent .account{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    background-color: peru;
+    color:#f0f5f5;box-sizing: border-box;
+    padding:8px 15px;
+    margin-right: 1.5rem;
+}
+
+#section #main-video .comments .display-comments .parent .comment-div .name span{
+    color:rgb(129, 125, 125);
+    font-size:0.7rem;
+}
+
+#section #main-video .comments .display-comments .parent .comment-div .comment{
+    color:rgb(91, 89, 89);
+    font-size:1rem;
+    margin-top: 0.5rem;
+}
+
+#section #main-video .comments .display-comments .parent .comment-div .like-dislike{
+    margin-top: 0.7rem;
+    font-size:0.8rem;
+}
+
+#section #main-video .comments .display-comments .parent .comment-div .like-dislike i{
+    font-size:1.3rem;
+    color:rgb(91, 89, 89);
+}
+
+#section #main-video .comments .display-comments .parent .comment-div .like-dislike span{
+    margin-right:1.5rem;
+}
+
+#section #side-videos{
+    margin-top:0.2rem;
+}
+
+#section #side-videos .parent{
+    display: flex;
+    flex-direction: row;
+    margin-bottom:0.3rem;
+    font-size:0.9rem;
+}
+
+#section #side-videos .parent .details{
+    margin-left:1rem;
+    margin-top:0.2rem;
+    width:15vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#section #side-videos .parent .details ul{
+    display: inline-block;
+    margin-left: -1rem;
+}
+
+#section #side-videos .parent .details .light{
+    font-size:0.8rem;
+    color:rgb(91, 89, 89);
+    margin-top:0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#section #side-videos .parent .details .down{
+   margin-top:-1rem;
+}

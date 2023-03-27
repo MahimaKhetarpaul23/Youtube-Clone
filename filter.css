@@ -1,0 +1,479 @@
+body{
+    margin:0px;
+    margin-right:0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:lighter;
+}
+
+.outer-body{
+    margin:0px;
+    margin-right:0px;
+    font-family:'roboto',sans-serif;
+    font-weight:lighter;
+}
+
+.nav{
+    left:0%;
+    cursor:pointer;
+    background-color: white;
+    /* overflow: hidden; */
+    width:100%;
+}
+
+#nav-top-ul{
+    list-style: none;
+    z-index:1;
+}
+
+#nav-top-ul li{
+    display: inline-block;
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+#nav-top-ul .list-icon{
+    font-size: 1.2rem;
+    font-weight: 0;
+    color: gray;
+}
+
+/* 
+#nav-top-ul .youtube-heading-letter{
+    color: black;
+    font-family:'Roboto',sans-serif;
+    font-size: 25px;
+    letter-spacing: -3px;
+    left:-8px;
+    right:-8px;
+} */
+
+#nav-top-ul .search-box{
+    display: flex;
+    flex-direction: row;
+    margin-left:15rem;
+}
+
+#nav-top-ul .search{
+    display: flex;
+    height: 2.2rem;
+    width:34rem;
+    border: 1px solid lightgrey;
+    align-items: center;
+    padding-left:0.2rem;
+    justify-content: flex-start;
+    font-size: 1.1rem;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#nav-top-ul .search-icon{
+    display: flex;
+    height: 2.2rem;
+    width: 3rem;
+    background-color: lightgray;
+    border: 1px solid lightgrey;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-top-ul .speak{
+    font-size:1.1rem;
+    margin-right:10rem;
+}
+
+#nav-top-ul .create{
+    font-size:1.4rem;
+    margin-top:1.8px;
+}
+
+#nav-top-ul .notify{
+    font-size:1.4rem;
+}
+
+#nav-top-ul .account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height:2rem;
+    width:2rem;
+    background-color: purple;
+    border-radius: 50%;
+    color:white;
+}
+
+.search-icon a{
+    text-decoration: none;
+    color:black;
+}
+
+.main-section{
+    position:relative;
+    top:-15%;
+}
+
+#nav-top .nav{
+    width:83vw;
+    display: inline-block;
+    position: fixed;
+    top:0px;
+}
+
+/* Aside section!!! */
+
+#aside-left-aligned{
+    /* overflow:auto; */
+    box-sizing: border-box;
+    margin-top: 5%;
+    height:auto;
+    width:15vw;
+    transition: top 0.3s;
+    display: inline-block;
+}
+
+#aside-left-aligned ul{
+    position: fixed;
+    top:0px;
+    left:-1.5%;
+}
+
+#aside-left-aligned .main-div{
+    /*position: fixed;
+   /* top:2%;
+    margin-top: -10px; */
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    font-size:1rem;
+    color:grey;
+    box-sizing: border-box;
+}
+
+#aside-left-aligned .main-div div{
+    display: flex;
+    box-sizing: border-box;
+    height:2.6rem;
+    width:15rem;
+    padding-left: 1.3rem;
+    padding-top:0.4rem;
+    cursor: pointer;
+}
+
+#aside-left-aligned .main-div .home{
+    background-color: rgb(217, 214, 214);
+}
+
+#aside-left-aligned .main-div div:hover{
+    background-color: #f0f5f5;
+}
+
+#aside-left-aligned a{
+    text-decoration: none;
+    color:#1a1a1a;
+}
+
+#aside-left-aligned i{
+    margin-right:1.7rem;
+    font-size:1.3rem;
+}
+
+#aside-left-aligned .line{
+    height:0.1rem;
+    width:15rem;
+    margin-top:0.6rem;
+    margin-bottom: 0.6rem;
+    background-color: lightgray;
+}
+
+#aside-left-aligned .main-div-head{
+    margin-left:1rem;
+    font-size:0.9rem;
+    margin-top:1rem;
+    margin-bottom: 0.8rem;
+}
+
+.nav2 .line{
+    height:0.1rem;
+    width:15rem;
+    margin-top:0.6rem;
+    margin-bottom: 0.6rem;
+    background-color: lightgray;
+}
+
+#aside-left-aligned ul{
+    text-decoration: none;
+}
+
+#aside-left-aligned ul li{
+    display: inline-block;
+}
+
+#aside-left-aligned .youtube-icon{
+    color:red;
+    font-size: 1.7rem;
+    margin-right:-4px;
+}
+
+#aside-left-aligned .youtube-heading{
+    color: black;
+    font-family:'roboto',sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: -2px;
+}
+
+#aside-left-aligned .youtube-heading-country{
+    font-family:'roboto',sans-serif;
+    font-size: 0.7rem;
+    color: grey;
+    vertical-align: super; /* superscript */
+}
+
+.main-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-section .videos-box{
+    height:auto;
+    width:80vw;
+    margin-top:0%;
+    margin-bottom: 4px;
+    margin-left: 2%;
+    display: inline-block;
+    background-color: rgb(252, 247, 247);
+}
+
+.main-section .videos-box .line{
+    height:0.1rem;
+    width:80vw;
+    background-color: lightgray;
+}
+
+.main-section .videos-box .bg-white{
+    background-color: white;
+    /* position: fixed;
+    top:7.8%; */
+}
+
+.main-section .videos-box .headings{
+    margin-top:0.6rem;
+    margin-bottom: 0.6rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-section .videos-box .headings div{
+    background-color: rgb(244, 238, 238);
+    color:rgb(25, 25, 25);
+    border:1px solid rgb(195, 192, 192);
+    border-radius:14.5px;
+    height: 1.5rem;
+    margin-left: 1rem;
+    margin-right:1rem;
+    text-align: center;
+    padding-top: 4px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size:0.9rem;
+    cursor: pointer;
+}
+
+.main-section .videos-youtube{
+    display: inline-block;
+    width:83vw;
+}
+
+.main-section .videos-flex{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin-left: 1.5%;
+} 
+
+.main-section .videos-flex .parent-div{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height:300px;
+    width:290px;
+    margin-left:0.6rem;
+    margin-right:0.6rem;
+    margin-bottom:1rem;
+    margin-top: 0.2rem;
+}
+
+.main-section .videos-flex .parent-div a{
+    text-decoration:none;
+    color:black;
+}
+
+.main-section .videos-flex .text-about-video{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    height:50px;
+    word-wrap: normal;
+    padding-right:30px;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.main-section .videos-flex .text-about-video .account{
+    display: inline-block;
+    box-sizing: border-box;
+    height:2.5rem;
+    width:2.5rem;
+    border-radius: 50%;
+    color:#f0f5f5;
+    text-align: center;
+    justify-content: center;
+    padding:0.6rem;
+    background-color:rgb(20, 20, 20);
+}
+
+.main-section .videos-flex .text-about-video .about{
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left:1rem;
+}
+
+.main-section .videos-flex .views{
+    margin-top: 0.7rem;
+    font-size:0.8rem;
+    padding-left: 2.7rem;
+    color:grey;
+    height:20px;
+    box-sizing: border-box;
+    line-height: 5px;
+}
+
+.main-section .videos-flex .views ul{
+    display: inline-block;
+    margin-left: -1.5rem;
+}
+
+.videos-flex-hor{
+    display: flex;
+    flex-direction: column;
+    margin-top:2rem;
+}
+
+.videos-flex-hor .parent-div a{
+    display: flex;
+    flex-direction: row;
+    margin-bottom:1rem;
+}
+
+.videos-flex-hor a{
+    text-decoration: none;
+    color:#1a1a1a;
+}
+
+.videos-youtube{
+    display: flex;
+    flex-direction: column;
+    margin-left:-25px;
+}
+
+.videos-youtube .filters{
+    background-color: rgb(254, 247, 247);
+    height:50vh;
+    width:75vw;
+    margin-top:11vh;
+    margin-left:4rem;
+    padding:1rem;
+    padding-bottom:2rem;
+    color:grey;
+}
+
+.videos-youtube .filters i{
+    font-size:1.3rem;
+    margin-left:2rem;
+}
+
+.videos-youtube .filters .sub-filter{
+    display: flex;
+    flex-direction: row;
+    font-size:0.8rem;
+    margin-left:2rem;
+}
+
+.videos-youtube .filters .sub-filter .parent{
+    display: block;
+    font-size:1rem;
+    color:rgb(48, 46, 46);
+    margin-right:2rem;
+}
+
+.videos-youtube .filters .sub-filter .parent{
+    margin:1rem;
+}
+
+.videos-youtube .listt
+{
+   margin-top:1.5rem;
+   list-style: none;
+}
+
+.videos-youtube .listt li{
+    margin-top:0.7rem;
+    cursor:pointer;
+}
+
+.videos-youtube .listt li:hover{
+    text-shadow:1px 1px rgb(170, 167, 167);
+}
+
+.videos-youtube .top-head{
+    font-size: 0.9rem;
+    color:rgb(48, 46, 46);
+    margin-top:0.5rem;
+    margin-left:2.1rem;
+    text-transform: uppercase;
+}
+
+.videos-youtube .line{
+    height:0.1rem;
+    width:10rem;
+    margin-top:0.6rem;
+    margin-bottom: 0.6rem;
+    background-color: lightgray;
+}
+
+
+#side-videos{
+    margin-top:0.2rem;
+    color:#1a1a1a;
+}
+
+#side-videos .parent{
+    display: flex;
+    flex-direction: row;
+    margin-bottom:1.8rem;
+    font-size:1.2rem;
+}
+
+#side-videos .parent .details{
+    margin-left:1rem;
+    margin-top:1.5rem;
+    width:50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#side-videos .parent .details ul{
+    display: inline-block;
+    margin-left: -1rem;
+}
+
+#side-videos .parent .details .light{
+    font-size:0.8rem;
+    color:rgb(91, 89, 89);
+    margin-top:1rem;
+    margin-bottom: 0.5rem;
+}
+
+#side-videos .parent .details .down{
+   margin-top:-1rem;
+}
